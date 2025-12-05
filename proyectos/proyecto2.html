@@ -2,32 +2,33 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto 1 - Calculadora en JavaScript</title>
+    <title>Proyecto 2 - Led con sensor infrarrojo</title>
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body>
     <header>
-        <h1>Proyecto 1: Calculadora en JavaScript</h1>
+        <h1>Proyecto 2: Led con sensor infrarrojo</h1>
     </header>
 
     <main>
         <section class="intro">
             <h2>Descripción del proyecto</h2>
             <p>
-                Este proyecto consiste en una calculadora básica desarrollada con HTML, CSS y JavaScript.
-                Permite realizar operaciones simples como suma, resta, multiplicación y división
-                directamente en el navegador, sin necesidad de recargar la página.
+                En este proyecto mediante un sensor infrarrojo y un control, se puede encender un led conectado a una placa de arduino uno.
+                Cuando se presiona el boton de encendido, el led se prende, cuando se presiona el boton de pausa, el led se apaga.
             </p>
         </section>
 
         <section class="proyecto-detalle" style="padding: 20px;">
             <h2>Vista del proyecto</h2>
-            <img src="../img/proyecto1.png" alt="Captura de pantalla de la calculadora en JavaScript" style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 15px;">
+            <img src="../img/proyecto2.png" alt="proyecto2"style="max-width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 15px;">
 
             <p>
-                La interfaz está pensada para ser sencilla y clara, con botones para cada operación y una pantalla
-                donde se muestran los números y el resultado. Este proyecto me permitió practicar el manejo del DOM,
-                eventos de clic y el uso de funciones en JavaScript.
+                En este proyecto se implementó un sistema de control remoto utilizando un sensor infrarrojo (IR) conectado a una placa Arduino Uno.
+                El objetivo consiste en encender y apagar un LED mediante las señales enviadas desde un control remoto convencional.
+
+El circuito funciona de la siguiente manera: el sensor infrarrojo recibe los pulsos emitidos por el control y los traduce en códigos digitales que Arduino interpreta mediante una librería específica para comunicación IR.
+                Cada botón del control envía un código único, permitiendo programar acciones diferentes según la tecla presionada.
             </p>
 
             <a href="../index.html" class="btn">Volver a la página principal</a>
